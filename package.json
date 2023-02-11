@@ -1,0 +1,33 @@
+{
+  "name": "webstorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeweyDv/WebStorm.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "DOS",
+    "layer7",
+    "layer4",
+    "net",
+    "global"
+  ],
+  "author": "Dewey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeweyDv/WebStorm/issues"
+  },
+  "homepage": "https://github.com/DeweyDv/WebStorm#readme",
+  "dependencies": {
+    "net": "^1.0.2",
+    "readline": "^1.3.0",
+    "request": "^2.88.2"
+  }
+}
