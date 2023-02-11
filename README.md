@@ -7,3 +7,11 @@ I am not responsible for how you use WebStorm.
 
 # Installation
 npm i && node .
+
+<br>
+
+# Layer 7 💣
+- GET | Send GET requests with your own packet size and quantities of your choice.
+
+# Layer 4 🧨
+- CNC | Send open connections via TCP to a host.
