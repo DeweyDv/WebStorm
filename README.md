@@ -15,3 +15,7 @@ npm i && node .
 
 # Layer 4 🧨
 - CNC | Send open connections using the TCP protocol > host
+- UDP | Send UDP packets with own rate and packet size.
+
+# Layer 3 🔥
+- ICMP | Send ping request floods
