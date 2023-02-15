@@ -6,6 +6,8 @@ With WebStorm, you are supposed to use it for testing purposes only and for good
 I am not responsible for how you use WebStorm.
 
 # Installation
+Please install Node.js on your system. The latest version of Node.js is compatible with WebStorm
+<br>
 git clone https://github.com/DeweyDv/WebStorm.git && cd WebStorm && npm i && node .
 
 <br>
