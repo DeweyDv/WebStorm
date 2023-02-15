@@ -6,7 +6,7 @@ With WebStorm, you are supposed to use it for testing purposes only and for good
 I am not responsible for how you use WebStorm.
 
 # Installation
-npm i && node .
+git clone https://github.com/DeweyDv/WebStorm.git && cd WebStorm && npm i && node .
 
 <br>
 
