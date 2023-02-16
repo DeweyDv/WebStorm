@@ -21,7 +21,8 @@ git clone https://github.com/DeweyDv/WebStorm.git && cd WebStorm && npm i && nod
 - TCP | Send TCP packets with own rate and packet size.
 
 # Layer 3 🔥
-- ICMP | Send ping request floods
+- ICMP | [maintenance]
+- MCP | Sends status request packets using minecraft client
 
 
 # Methods [Info]
